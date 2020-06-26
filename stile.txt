@@ -1,0 +1,46 @@
+QPushButton {
+     border-radius: 2px;
+	 border: 1px solid black;
+	 background-color: rgb(192,192,192);
+	 border-color: rgb(0,0,255); 
+}
+QPushButton:hover{
+	border-color: rgb(128,0,0);
+}
+QPushButton:pressed{
+	border-color: rgb(128,0,0);
+	background-color: rgb(220,220,220);
+	border-radius: 1px;
+}
+
+QPlainTextEdit{
+    border: 1px solid blue;
+    background-color: rgb(220, 220, 220);
+}
+
+
+QLineEdit {
+	border: 2px solid blue;
+	border-radius: 5px;
+}
+QLineEdit:hover {
+	border-color: rgb(128,0,0);
+	border-radius: 6px;
+}
+QMenu{
+     border: 1px solid black;
+}
+QMenu:hover{
+     background-color: rgb(5,255,255); 
+     border: 1px solid black;
+}
+QAction:hover{
+	border: 14px green;
+}
+QMenuBar{
+	font-family: Callibri;
+}
+
+QMainWindow{
+
+}
