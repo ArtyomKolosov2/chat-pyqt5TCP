@@ -22,7 +22,7 @@ class UserInterface(QWidget):
     def add_message(self, msg):
         time = QTime.currentTime()
         print(msg, " !!!")
-        self.plaintText.insertPlainText(r"[{0}] {1} {2}".format(time.toString("h:m:s ap"), msg, "\n"))
+        self.plaintText.insertPlainText(r"<b>[{0}]</b> {1} {2}".format(time.toString("hh:mm:ss"), msg, "\n"))
 
     def initialize_component(self):
         self.button_send = QPushButton("Send")
